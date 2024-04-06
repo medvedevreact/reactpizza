@@ -1,0 +1,23 @@
+.buttons {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+
+  .button {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: rgb(202, 131, 0) 1px solid;
+    color: rgb(196, 128, 3);
+    background: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover,
+    &.active {
+      background: rgb(199, 130, 1);
+      color: white;
+    }
+  }
+}
