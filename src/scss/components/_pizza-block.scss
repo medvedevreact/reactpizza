@@ -4,6 +4,9 @@
   width: 280px;
   text-align: center;
   margin-bottom: 65px;
+  @media (max-width: 768px) {
+    width: 260px;
+  }
 
   &__image {
     width: 260px;
@@ -26,6 +29,9 @@
     border-radius: 10px;
     flex-direction: column;
     padding: 6px;
+    @media (max-width: 700px) {
+      width: 250px;
+    }
 
     ul {
       display: flex;
@@ -64,5 +70,8 @@
     font-size: 22px;
     line-height: 27px;
     letter-spacing: 0.015em;
+    @media (max-width: 700px) {
+      font-size: 18px;
+    }
   }
 }
